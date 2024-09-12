@@ -1,0 +1,288 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+}
+.container{
+    padding-left: 110px;
+    padding-right: 110px;
+}
+.navbar{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.navbar__s1 img{
+    width: 33px;
+    border-radius: 50%;
+}
+.navbar__s2 p:hover{
+    color: rgb(10, 219, 139);
+    transition: 1s;
+}
+.navbar__s2,.navbar__s1,.navbar__s3{
+   display: flex;
+   align-items: center;
+}
+.navbar__s2 p{
+    padding: 10px;
+}
+.navbar__s3{
+    border: 1px solid none;
+    border-radius: 30px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+}
+.navbar__s3:hover{
+    background-color:  rgb(10, 219, 139);
+    transition: 1s;
+    color: black;
+    border: none;
+}
+
+/* navbar2 */
+
+.navbar2{
+    text-align: center;
+    padding-top: 30px;
+}
+.navbar2__s2{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    cursor: pointer;
+}
+.navbar2__s2 p{
+    padding: 30px;
+}
+.navbar2__s2 img{
+    width: 24px;
+    top: 5px;
+    position: relative;
+}
+.navbar2__s3{
+    padding-top: 20px;
+    border: 1px solid black;
+    border-radius: 50px;
+    width:50%;
+    margin-left:25%;
+    height: 25px;
+}
+.navbar2__s3 input{
+    outline: none;
+    border: none;
+    bottom: 15px;
+    position: relative;
+    width: 83%;
+}
+.navbar2__s3 button{
+    border-radius: 20px;
+    background-color: rgb(10, 219, 139);
+    padding: 10px;
+    position: relative;
+    bottom: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+.content__s1{
+    position: relative;
+}
+
+.content__s1 img{
+    width: 100%;
+    background-color: rgb(238, 201, 238);
+    margin-top: 20px;
+    border-radius: 20px;
+}
+.content__s1 button{
+    border-radius: 30px;
+    padding:10px;
+    background-color: rgb(36, 1, 36);
+   color: white;
+   margin-top: 20px;
+}
+
+.content__s2{
+    position: absolute;
+    top: 100px;
+    padding: 50px;   
+}
+.content__s2 h1,p{
+    padding: 10px;
+}
+.content__s2 h1{
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+/* PLaces */
+ .place1__s1{
+ display: flex;
+ gap: 20px;
+ }
+
+
+ .place1__s1 img{
+ width: 100%;
+ position: relative;
+ margin-top: 30px;
+ }
+
+ .place1{
+ margin-top: 100px;
+ }
+
+ .explore{
+ position: relative;
+ margin-top: 50px;
+ }
+
+ .explore h1{
+ position: absolute;
+ top: 70%;
+ margin-left: 20px;
+ color: white;
+ box-shadow: 10px;
+ background-color:rgba(0, 0, 0, 0.459);
+ padding: 10px;
+ }
+
+.explore p{
+position: absolute;
+top: 80%;
+margin-left: 20px;
+color: white;
+background-color:rgba(0, 0, 0, 0.459);
+}
+
+.explore button{
+color: black;
+background-color: white;
+border: none;
+position:relative;
+bottom: 670px;
+margin-left: 20px;
+}
+
+.explore__s1{
+background-color: white;
+border: 1px solid black;
+position: relative;
+border: none;
+margin-top: 100px;
+}
+.explore__s1 img{
+width: 50%;
+}
+.explore__h1,.explore__p{
+position: absolute;
+left: 50%;
+}
+.explore__h1{
+top: 50%;
+margin-left: 30px;
+}
+.explore__p{
+top: 57%;
+margin-left: 30px;
+}
+.explore__b{
+margin-top: 50%;
+}
+.explore__l{
+background-color:black;
+color: white;
+width: 100px;
+border-radius: 20px;
+margin-left: 65%;
+position: relative;
+bottom: 130px;
+padding: 10px;
+text-align: center;
+}
+.explore__s2{
+border: 1px solid black;
+border: none;
+margin-top: 100px;
+}
+.explore__s2 img{
+width: 50%;
+margin-left: 50%;
+}
+.explore__s2-s1{
+position: absolute;
+top: 87%
+}
+.explore__s2-s1 img{
+width: 100px;
+position: relative;
+right: 500px;
+bottom: 50px
+}
+.explore__s2-s1 h1{
+position: relative;
+left: 20px;
+}
+.explore__s2-s1 p{
+position: relative;
+left: 10px;
+}
+.explore__p-s2{
+background-color: black;
+border-radius: 30px;
+display: inline-block;
+color: white;
+margin-top: 20px;
+margin-left: 10px;
+}
+.explore__s2-s1{
+position: relative;
+bottom: 400px;
+}
+
+.footer{
+    display: flex;
+    background-color: rgb(252, 252, 225);
+    padding: 50px;
+    gap: 30px;
+}
+.footer__s1,.footer__s2,.footer__s3{
+    margin-left: 20px;
+}
+
+.footer__section img{
+    width: 50px;
+    position: relative;
+    bottom:20px;
+    left: 10px;
+}
+.footer__section{
+    display: flex;
+    gap: 20px;
+}
+.footer__section2 select{
+      padding: 5px;
+      width: 100px;    
+}
+.footer__section2{
+    position: relative;
+    text-align: end;
+    bottom: 20px;
+}
+.footer__section3{
+    position: relative;
+    text-align: end;
+    bottom: 10px;
+}
+.footer__section3 i{
+    padding: 10px;
+}
+
+.footer__section3 i:hover{
+    color: rgb(10, 219, 139);
+}
